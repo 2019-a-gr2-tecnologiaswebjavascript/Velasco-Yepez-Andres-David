@@ -1,1 +1,0 @@
-# Velasco-Yepez-Andres-David
