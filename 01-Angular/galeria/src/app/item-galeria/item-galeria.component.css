@@ -1,0 +1,20 @@
+.rojo{
+  background-color: aqua;
+  transition: 0.5s;
+}
+
+.rojo:hover{
+  background-color: aliceblue;
+  transition: 0.5s;
+}
+
+button{
+  background-color: #3533ff;
+  transition: 0.7s;
+}
+
+button:hover{
+  border-radius: 5px;
+  background-color: aliceblue;
+  transition: 0.7s;
+}
