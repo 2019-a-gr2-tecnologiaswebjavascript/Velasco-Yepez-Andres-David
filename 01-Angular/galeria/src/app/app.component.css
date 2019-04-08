@@ -1,0 +1,11 @@
+.rojo{
+  color: red;
+  background-color: bisque;
+  transition: 0.5s;
+}
+
+.rojo:hover{
+  color: red;
+  background-color: #7eff29;
+  transition: 0.5s;
+}
