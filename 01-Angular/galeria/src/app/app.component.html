@@ -1,8 +1,9 @@
-<h1 class="rojo">Titulo {{title}}</h1>
+<h1 [class]="clase">Titulo {{title}}</h1>
 
-<app-item-galeria
-  NombreItem="Papitas"
-  textoBoton="A los bestia"
-></app-item-galeria>
-<app-item-galeria NombreItem="Carnitas" textoBoton="Asadas"></app-item-galeria>
-<app-item-galeria NombreItem="Pizzas" textoBoton="Redondas"></app-item-galeria>
+<app-item-galeria *ngFor="let flor of arregloFloresJS"
+                   [textoBoton]="flor.nombre"
+                  (cambioCalvo)="cambioCalvo($event)"
+                  (cambioHomero)="cambioHomero($event)"
+         >
+
+</app-item-galeria>

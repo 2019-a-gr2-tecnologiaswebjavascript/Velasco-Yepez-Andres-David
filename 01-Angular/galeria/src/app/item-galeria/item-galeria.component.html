@@ -1,4 +1,11 @@
+<!-- {{}} Interpolacion -->
 <h1 class="rojo">Item {{title}}</h1>
 <p>Nombre: {{NombreItem}}</p>
 <!-- EVENT BINDING-->
 <button (click)="alertar()" > {{textoBoton}} </button>
+<!-- Property Binding -->
+<img [src]="url" alt="" (click)="cambiarImagen()" >
+<!-- Directiva -> *ngFor -->
+<p *ngFor="let nota of notas">
+      {{nota}}
+</p>
