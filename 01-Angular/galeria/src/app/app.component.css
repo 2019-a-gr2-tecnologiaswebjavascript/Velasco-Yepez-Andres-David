@@ -9,3 +9,15 @@
   background-color: #7eff29;
   transition: 0.5s;
 }
+
+.amarillo{
+  color: #f8ffe8;
+  background-color: #fbff24;
+  transition: 0.5s;
+}
+
+.amarillo:hover{
+  color: #f2fff0;
+  background-color: #7eff29;
+  transition: 0.5s;
+}
