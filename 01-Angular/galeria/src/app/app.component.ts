@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {CarritoService} from "./servicios/carrito/carrito.service";
 
 @Component({
   selector: 'app-root',
@@ -8,13 +9,19 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'galeria';
   clase = "rojo";
+  estaMostrando = false;
 
   arregloFloresJS = [
-    {'nombre':"papitas", 'descripcion':"a lo bestia"},
-    {'nombre':"carnitas", 'descripcion':"a lo bestia"},
-    {'nombre':"chicas", 'descripcion':"a lo bestia"},
+    {'titulo':"Don Jose",'nombre':"papitas", 'descripcion':"a lo bestia",'notas':["Papitas","Empanadas"]},
+    {'titulo':"Don Byron",'nombre':"carnitas", 'descripcion':"a lo bestia",'notas':["Frutas","Verduras"]},
+    {'titulo':"Baez",'nombre':"chicas", 'descripcion':"a lo bestia",'notas':["Hot Dog","Hamburguesas"]},
   ];
 
+  constructor(
+    private readonly _carritoService:CarritoService
+  ){
+
+  }
   cambioCalvo(evento:boolean){
     // Logica para hacerle rojo
     this.clase = "rojo";
@@ -25,6 +32,11 @@ export class AppComponent {
     this.clase = "amarillo";
     console.log("Cambio a homero ",evento);
   }
+
+  mostrar(estaMostrando:boolean){
+    this.estaMostrando = estaMostrando;
+  }
+
 
 }
 
