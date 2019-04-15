@@ -1,4 +1,5 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
+import {CarritoService} from "../servicios/carrito/carrito.service";
 
 // Este decorador crea el componente
 @Component({
@@ -7,12 +8,26 @@ import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
   styleUrls: ['./item-galeria.component.css'] // Ruta hacia los estilos del componente
 })
 // Exportar deja disponible la clase hacia otros archivos
-export class ItemGaleriaComponent implements OnInit {
+export class ItemGaleriaComponent implements OnInit,OnDestroy {
+  // Dependency
+  // Injection
+  // Injeccion de dependencias
+  // SERVICIOS -> COMPONENTES
+  // SERVICIOS -> SERVICIOS
+  constructor(
+    private readonly _carritoService:CarritoService
+  ) {
+
+  }
+
 
   title = 'Floreria';
 
   @Input() // Para poder llenar la variable nombreItem
   NombreItem:string;
+
+  @Input()
+  titulo;
 
   @Output()
   cambioCalvo:EventEmitter<boolean> = new EventEmitter();
@@ -22,17 +37,14 @@ export class ItemGaleriaComponent implements OnInit {
 
   url = "https://i.pinimg.com/736x/35/f3/bd/35f3bd1e00ef3c7c720895ea963f2d26.jpg";
 
-  notas = [1,2,3,4,5,6,7,8,9,10];
-
+  @Input()
+  notas; //Productos
 
   @Input()
   textoBoton:string;
 
   constructor() { }
 
-  ngOnInit() {
-
-  }
 
   alertar(){
     alert('Auxilio me desmayo!! ' + this.NombreItem)
@@ -57,5 +69,42 @@ export class ItemGaleriaComponent implements OnInit {
     }
 
   }
+
+
+  ngOnInit() {
+    console.log("Empezo");
+    console.log(this._carritoService.carritoCompras);
+  }
+
+  ngOnDestroy(): void {
+    console.log("Termino");
+  }
+
+  agregarCarrito(valorCarrito): void{
+    const itemCarrito = {
+      valor:valorCarrito,
+      nombreTienda:this.titulo,
+    };
+
+    this._carritoService.carritoCompras.splice(0,0,itemCarrito);
+    console.log(this._carritoService.carritoCompras);
+  }
+
+  /*
+  *   Ciclo de vida del componente
+  *   ngOnInit -> OnInit -> Instancia
+  *   ngOnDestroy -> OnDestroy
+  * */
+
+
+  /*
+    -RUTA -> Login -> MODULOS/ETC
+  *  PAPA [] -> hijo []-> hija
+  *   HIJO [] -> nieto -> () -> papa
+  *     NIETO -> () -> hijo
+  *   HIJA
+  *  TIO
+  *   PRIMO
+  * */
 
 }
