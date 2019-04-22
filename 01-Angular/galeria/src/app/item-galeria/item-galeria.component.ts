@@ -43,7 +43,6 @@ export class ItemGaleriaComponent implements OnInit,OnDestroy {
   @Input()
   textoBoton:string;
 
-  constructor() { }
 
 
   alertar(){
@@ -86,7 +85,8 @@ export class ItemGaleriaComponent implements OnInit,OnDestroy {
       nombreTienda:this.titulo,
     };
 
-    this._carritoService.carritoCompras.splice(0,0,itemCarrito);
+    //this._carritoService.carritoCompras.splice(0,0,itemCarrito);
+    this._carritoService.agregar_item(itemCarrito);
     console.log(this._carritoService.carritoCompras);
   }
 

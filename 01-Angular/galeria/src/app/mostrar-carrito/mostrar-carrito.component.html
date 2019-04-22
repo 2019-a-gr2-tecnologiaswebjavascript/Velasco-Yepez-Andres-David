@@ -1,7 +1,21 @@
-<p>
-  mostrar-carrito works!
-</p>
+<div class="azul">
 
-<div>
-  <p>Total: {{total}}}</p>
+  <div [hidden]="!esta_activo">
+    <button (click)="mostrar()">Ocultar Carrito</button>
+    <p>Carrito</p>
+    <div *ngFor="let item of carritoService.carritoCompras">
+      <ul class="negro">
+        Tienda: {{item.nombreTienda}}
+        <li>
+          Articulo: {{item.valor}}
+        </li>
+        <li>
+          Total: {{item.total}}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div *ngIf="!esta_activo">
+    <button (click)="mostrar()">Mostrar Carrito</button>
+  </div>
 </div>

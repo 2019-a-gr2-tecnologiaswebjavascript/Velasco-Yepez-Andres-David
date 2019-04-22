@@ -1,0 +1,11 @@
+.azul{
+  background-color: #3533ff;
+  color: white;
+  transition: 0.5s;
+}
+
+
+.negro:hover{
+  background-color: black;
+  transition: 0.5s;
+}
