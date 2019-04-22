@@ -8,6 +8,7 @@ import {CarritoService} from "../servicios/carrito/carrito.service";
 })
 export class MostrarCarritoComponent implements OnInit {
 
+  esta_activo:boolean = true;
   total:number;
   constructor(private readonly carritoService: CarritoService) {
 
@@ -15,6 +16,9 @@ export class MostrarCarritoComponent implements OnInit {
 
   ngOnInit() {
 
+  }
+  mostrar(){
+    this.esta_activo = !this.esta_activo;
   }
 
 }

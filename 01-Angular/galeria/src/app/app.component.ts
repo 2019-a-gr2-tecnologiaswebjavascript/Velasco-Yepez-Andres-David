@@ -6,6 +6,7 @@ import {CarritoService} from "./servicios/carrito/carrito.service";
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+
 export class AppComponent {
   title = 'galeria';
   clase = "rojo";
@@ -22,6 +23,7 @@ export class AppComponent {
   ){
 
   }
+
   cambioCalvo(evento:boolean){
     // Logica para hacerle rojo
     this.clase = "rojo";
