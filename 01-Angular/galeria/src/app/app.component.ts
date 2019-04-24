@@ -14,8 +14,8 @@ export class AppComponent {
 
   arregloFloresJS = [
     {'titulo':"Don Jose",'nombre':"papitas", 'descripcion':"a lo bestia",'notas':["Papitas","Empanadas"]},
-    {'titulo':"Don Byron",'nombre':"carnitas", 'descripcion':"a lo bestia",'notas':["Frutas","Verduras"]},
-    {'titulo':"Baez",'nombre':"chicas", 'descripcion':"a lo bestia",'notas':["Hot Dog","Hamburguesas"]},
+    {'titulo':"Don Byron",'nombre':"carnitas", 'descripcion':"a lo bestia",'notas':["Frutas","Verduras","Papitas"]},
+    {'titulo':"Baez",'nombre':"chicas", 'descripcion':"a lo bestia",'notas':["Hot Dog","Hamburguesas","Papitas"]},
   ];
 
   constructor(
