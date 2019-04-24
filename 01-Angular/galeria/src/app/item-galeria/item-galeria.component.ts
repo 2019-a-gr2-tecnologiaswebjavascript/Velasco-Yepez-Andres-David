@@ -1,5 +1,6 @@
 import {Component, EventEmitter, Input, OnDestroy, OnInit, Output} from '@angular/core';
 import {CarritoService} from "../servicios/carrito/carrito.service";
+import {ItemCarritoCompras} from '../interfaces/item-carrito-compras'
 
 // Este decorador crea el componente
 @Component({
@@ -80,13 +81,14 @@ export class ItemGaleriaComponent implements OnInit,OnDestroy {
   }
 
   agregarCarrito(valorCarrito): void{
-    const itemCarrito = {
+    const itemCarrito:ItemCarritoCompras = {
       valor:valorCarrito,
       nombreTienda:this.titulo,
     };
 
     //this._carritoService.carritoCompras.splice(0,0,itemCarrito);
-    this._carritoService.agregar_item(itemCarrito);
+    //this._carritoService.agregar_item(itemCarrito);
+    this._carritoService.agregarCarritoDeCompras(itemCarrito);
     console.log(this._carritoService.carritoCompras);
   }
 
@@ -108,3 +110,13 @@ export class ItemGaleriaComponent implements OnInit,OnDestroy {
   * */
 
 }
+// Contrato
+
+/*
+class CarritoCompras implements CarritoComprasInterface{
+  nombreTienda: string;
+  valor: string;
+
+}
+*/
+// Cuando solamente se quiere tipar algo no se usa la clase
