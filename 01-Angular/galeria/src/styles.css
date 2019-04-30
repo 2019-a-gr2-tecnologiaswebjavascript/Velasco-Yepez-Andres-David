@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.contenedor{
+  padding: 0 40px;
+  margin: 40px 0;
+  border: 20px solid black;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-left-radius: 50px;
+  background-color: aliceblue;
+}
+
+.item-menu{
+  color: darkblue;
+  margin: 10px;
+  transition: 2s;
+  border: solid white 2px;
+  float: right
+}
+
+.item-menu:hover{
+  color: white;
+  background-color: darkblue;
+  transition: 2s;
+  transform: scale(1.1,1.1);
+  border: grey solid 2px;
+}
+
+.texto-derecha{
+  text-align: right;
+}
