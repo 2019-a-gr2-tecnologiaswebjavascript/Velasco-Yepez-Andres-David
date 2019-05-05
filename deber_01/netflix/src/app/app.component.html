@@ -1,0 +1,72 @@
+<app-nav-bar></app-nav-bar>
+
+<div class="container">
+
+  <h2 class="titulo-lista">Tendencias</h2>
+  <div class="row">
+    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+      <app-movie-item
+        [nombre]="pelicula.nombre"
+        [descripcion]="pelicula.descripcion"
+        [categorias]="pelicula.categorias"
+        [clasificacion]="pelicula.clasificacion"
+        [duracion]="pelicula.duracion"
+        [portadaUrl]="pelicula.portadaUrl">
+      </app-movie-item>
+    </div>
+  </div>
+
+  <h2 class="titulo-lista">Recomendados para ti</h2>
+  <div class="row">
+    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+      <app-movie-item
+        [nombre]="pelicula.nombre"
+        [descripcion]="pelicula.descripcion"
+        [categorias]="pelicula.categorias"
+        [clasificacion]="pelicula.clasificacion"
+        [duracion]="pelicula.duracion"
+        [portadaUrl]="pelicula.portadaUrl">
+      </app-movie-item>
+    </div>
+  </div>
+
+  <h2 class="titulo-lista">Documentales</h2>
+  <div class="row">
+    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+      <app-movie-item
+        [nombre]="pelicula.nombre"
+        [descripcion]="pelicula.descripcion"
+        [categorias]="pelicula.categorias"
+        [clasificacion]="pelicula.clasificacion"
+        [duracion]="pelicula.duracion"
+        [portadaUrl]="pelicula.portadaUrl">
+      </app-movie-item>
+    </div>
+  </div>
+  <h2 class="titulo-lista">Clasicos</h2>
+  <div class="row">
+    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+      <app-movie-item
+        [nombre]="pelicula.nombre"
+        [descripcion]="pelicula.descripcion"
+        [categorias]="pelicula.categorias"
+        [clasificacion]="pelicula.clasificacion"
+        [duracion]="pelicula.duracion"
+        [portadaUrl]="pelicula.portadaUrl">
+      </app-movie-item>
+    </div>
+  </div>
+  <h2 class="titulo-lista">Thrillers</h2>
+  <div class="row">
+    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+      <app-movie-item
+        [nombre]="pelicula.nombre"
+        [descripcion]="pelicula.descripcion"
+        [categorias]="pelicula.categorias"
+        [clasificacion]="pelicula.clasificacion"
+        [duracion]="pelicula.duracion"
+        [portadaUrl]="pelicula.portadaUrl">
+      </app-movie-item>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ddf17c2-c662-45a9-a07a-7424b3ef03f3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Velasco-Yepez-Andres-David.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Velasco-Yepez-Andres-David.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,54 +21,168 @@
           <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
-          <entry key="html" value="5" />
-          <entry key="json" value="4" />
-          <entry key="ts" value="10" />
+          <entry key="css" value="11" />
+          <entry key="html" value="12" />
+          <entry key="json" value="5" />
+          <entry key="ts" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="5" />
-          <entry key="JSON" value="3" />
-          <entry key="TypeScript" value="10" />
+          <entry key="CSS" value="11" />
+          <entry key="HTML" value="12" />
+          <entry key="JSON" value="4" />
+          <entry key="TypeScript" value="21" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
           <entry key="Angular2LanguageService" value="7" />
-          <entry key="TypeScriptServerServiceImpl" value="1" />
+          <entry key="TypeScriptServerServiceImpl" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="483" />
-          <entry key="html" value="1518" />
-          <entry key="json" value="46" />
-          <entry key="ts" value="4034" />
+          <entry key="css" value="1024" />
+          <entry key="html" value="2361" />
+          <entry key="json" value="67" />
+          <entry key="ts" value="4687" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="483" />
-          <entry key="HTML" value="1518" />
-          <entry key="JSON" value="46" />
-          <entry key="TypeScript" value="4034" />
+          <entry key="CSS" value="1024" />
+          <entry key="HTML" value="2361" />
+          <entry key="JSON" value="67" />
+          <entry key="TypeScript" value="4687" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/angular.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="441">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+              <folding>
+                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+                <element signature="n#div#2;n#div#0;n#!!top" />
+                <element signature="n#div#3;n#div#0;n#!!top" />
+                <element signature="n#div#4;n#div#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#42#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+              <folding>
+                <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>styles</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,6 +204,18 @@
         <option value="$PROJECT_DIR$/01-Angular/galeria/angular.json" />
         <option value="$PROJECT_DIR$/01-Angular/galeria/src/styles.css" />
         <option value="$PROJECT_DIR$/01-Angular/galeria/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/interfaces/movie-item-model.ts" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.ts" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/index.html" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/app.component.css" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/angular.json" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.html" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.css" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.css" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.html" />
+        <option value="$PROJECT_DIR$/deber_01/netflix/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -101,11 +228,14 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/01-Angular/galeria/node_modules" />
     <handled-path value="$PROJECT_DIR$/02 IONIC/tinderpoli/node_modules" />
+    <handled-path value="$PROJECT_DIR$/deber_01/netflix/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/01-Angular/galeria/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/package.json" />
+      <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/platforms/android/cordova/node_modules/nopt/package.json" />
+      <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/platforms/android/cordova/node_modules/shelljs/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-device/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-device/tests/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-ionic-keyboard/package.json" />
@@ -116,6 +246,7 @@
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-statusbar/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-statusbar/tests/package.json" />
       <path value="$PROJECT_DIR$/02 IONIC/tinderpoli/plugins/cordova-plugin-whitelist/package.json" />
+      <path value="$PROJECT_DIR$/deber_01/netflix/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -139,28 +270,46 @@
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
               <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="02 IONIC" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
               <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="02 IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="tinderpoli" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
               <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="02 IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="tinderpoli" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
               <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="02 IONIC" type="462c0819:PsiDirectoryNode" />
-              <item name="tinderpoli" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="movie-item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
+              <item name="deber_01" type="462c0819:PsiDirectoryNode" />
+              <item name="netflix" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="nav-bar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,6 +319,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="excluded.www.directory" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -204,16 +354,18 @@
       <workItem from="1555966795613" duration="6626000" />
       <workItem from="1556312903731" duration="6545000" />
       <workItem from="1556576113000" duration="2687000" />
+      <workItem from="1557075854873" duration="17482000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38963000" />
+    <option name="totallyTimeSpent" value="56445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23397224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26701915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -228,11 +380,32 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.31982633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.7322721" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.075253256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18902843" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="9" weight="0.31982633" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.33863965" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -301,9 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-          <folding>
-            <element signature="e#0#88#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -372,8 +542,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/interfaces/movie-item-model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="27" column="46" selection-start-line="27" selection-start-column="46" selection-end-line="27" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#73#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="40" lean-forward="true" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="6" lean-forward="true" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/movie-item/movie-item.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/nav-bar/nav-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="137" selection-start-line="2" selection-start-column="137" selection-end-line="2" selection-end-column="137" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deber_01/netflix/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="58" column="36" selection-start-line="58" selection-start-column="36" selection-end-line="58" selection-end-column="36" />
+          <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" />
+            <element signature="n#div#2;n#div#0;n#!!top" />
+            <element signature="n#div#3;n#div#0;n#!!top" />
+            <element signature="n#div#4;n#div#0;n#!!top" />
           </folding>
         </state>
       </provider>
