@@ -29,16 +29,3 @@
 .clasificacion{
   border: 1px solid white;
 }
-
-.redondo{
-  border-radius: 50%;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: white;
-  border-color: white;
-  transition: 0.3s;
-}
-
-.redondo:hover{
-  transition: 0.3s;
-  transform: scale(1.2,1.2);
-}

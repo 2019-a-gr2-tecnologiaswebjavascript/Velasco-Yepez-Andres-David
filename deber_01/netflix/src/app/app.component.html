@@ -1,6 +1,6 @@
 <app-nav-bar></app-nav-bar>
 
-<div class="container">
+<div class="container" style="padding-top: 100px;">
 
   <h2 class="titulo-lista">Tendencias</h2>
   <div class="row">
@@ -56,17 +56,20 @@
       </app-movie-item>
     </div>
   </div>
-  <h2 class="titulo-lista">Thrillers</h2>
-  <div class="row">
-    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+  <h2 class="titulo-lista">Mi lista</h2>
+  <div class="row" style="padding-bottom: 40px">
+    <div class="col-2" *ngFor="let pelicula of _listaService.lista">
       <app-movie-item
         [nombre]="pelicula.nombre"
         [descripcion]="pelicula.descripcion"
         [categorias]="pelicula.categorias"
         [clasificacion]="pelicula.clasificacion"
         [duracion]="pelicula.duracion"
-        [portadaUrl]="pelicula.portadaUrl">
+        [portadaUrl]="pelicula.portadaUrl"
+        [estaEnLista]="true"
+      >
       </app-movie-item>
     </div>
   </div>
 </div>
+
