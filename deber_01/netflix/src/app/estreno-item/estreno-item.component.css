@@ -1,0 +1,12 @@
+.estreno{
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+  margin-top: 80px;
+}
+
+.detalle-estreno{
+  color: white;
+  font-size: 20px;
+  padding-top: 350px;
+}

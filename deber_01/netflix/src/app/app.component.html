@@ -1,6 +1,16 @@
 <app-nav-bar></app-nav-bar>
 
-<div class="container" style="padding-top: 100px;">
+<div class="container">
+    <app-estreno-item
+      [nombre]="peliculaEstreno.nombre"
+      [descripcion]="peliculaEstreno.descripcion"
+      [categorias]="peliculaEstreno.categorias"
+      [clasificacion]="peliculaEstreno.clasificacion"
+      [duracion]="peliculaEstreno.duracion"
+      [portadaUrl]="peliculaEstreno.portadaUrl"
+    ></app-estreno-item>
+</div>
+<div class="container" style="padding-top: 50px;">
 
   <h2 class="titulo-lista">Tendencias</h2>
   <div class="row">

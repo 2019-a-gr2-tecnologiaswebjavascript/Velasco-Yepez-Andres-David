@@ -13,6 +13,15 @@ export class AppComponent {
   }
 
   title = 'netflix';
+
+  peliculaEstreno:MovieInterface={
+    'nombre':'Star Wars IX',
+    'descripcion':'Noveno espisodio de la saga',
+    'categorias':['accion','drama'],
+    'duracion':'2h00',
+    'clasificacion':12,
+    'portadaUrl':'http://hdqwalls.com/wallpapers/stormtrooper-in-star-wars-wide.jpg'
+  }
   arregloPeliculas:MovieInterface[]=[
     {
       'nombre':'Milagros Inesperados',

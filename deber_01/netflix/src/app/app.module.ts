@@ -6,6 +6,7 @@ import { MovieItemComponent } from './movie-item/movie-item.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import {ListaService} from "./servicios/lista/lista.service";
 import { ListaFavoritosComponent } from './lista-favoritos/lista-favoritos.component';
+import { EstrenoItemComponent } from './estreno-item/estreno-item.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { ListaFavoritosComponent } from './lista-favoritos/lista-favoritos.compo
     MovieItemComponent,
     NavBarComponent,
     ListaFavoritosComponent,
+    EstrenoItemComponent,
   ],
   imports: [
     BrowserModule
