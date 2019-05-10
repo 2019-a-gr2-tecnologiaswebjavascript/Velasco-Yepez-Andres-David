@@ -1,0 +1,25 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<div class="contenedor-img" [ngStyle]="{'background-image':'url('+portadaUrl+')'}" (mouseenter)="cambiarEstadoMostrar()" (mouseleave) ="cambiarEstadoMostrar()">
+
+  <div *ngIf="estadoMostrarDetalle" class="detalle row">
+    <div class="col-sm-8">
+        <h6>{{nombre}}</h6>
+        <span class="clasificacion">{{clasificacion}}+</span>  <span>  {{duracion}}</span>
+      <br>
+        <span *ngFor="let categoria of categorias">
+            &#9679;{{categoria}}
+        </span>
+    </div>
+
+    <div class="col-sm-4" >
+      <button  class="btn redondo fa fa-thumbs-up"></button>
+      <button  class="btn redondo fa fa-thumbs-down"></button>
+      <button *ngIf="!estaEnLista" (click)="agregarLista()" class=" btn redondo fa fa-plus"></button>
+      <button *ngIf="estaEnLista" (click)="quitarLista()" class="btn redondo fa fa-minus"></button>
+    </div>
+
+
+  </div>
+</div>
