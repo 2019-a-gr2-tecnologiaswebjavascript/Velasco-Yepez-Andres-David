@@ -19,6 +19,8 @@ export class EstrenoItemComponent implements OnInit {
   portadaUrl:string;
   @Input()
   descripcion:string;
+  @Input()
+  logo_titulo:string;
 
 
 

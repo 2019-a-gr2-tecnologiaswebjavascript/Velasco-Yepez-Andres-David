@@ -1,4 +1,22 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<div class="estreno" [ngStyle]="{'background-image':'url('+portadaUrl+')'}" >
+<div class="estreno-image-contenedor" >
+  <img [src]="portadaUrl" alt="" class="estreno-image-contenedor">
 
+  <div class="transi">
+
+  </div>
+  <div class="info">
+    <div>
+      <img [src]="logo_titulo" alt="" class="logo-titulo-image">
+    </div>
+    <div class="acciones">
+      <button class="btn boton-flat fa fa-play"> Reproducir</button>
+      <button class="btn boton-flat fa fa-plus"> Mi Lista</button>
+    </div>
+
+    <div class="descripcion">
+      <p>{{descripcion}}</p>
+    </div>
+  </div>
 </div>

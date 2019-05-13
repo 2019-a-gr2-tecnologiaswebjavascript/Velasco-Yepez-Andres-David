@@ -1,12 +1,78 @@
-.estreno{
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: 100%  100%;
-  margin-top: 80px;
+.estreno-image{
+  height: auto;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
+.transi{
+  bottom: 0;
+  background-size: 100% 100%;
+  background: -webkit-linear-gradient(top, rgba(20, 20, 20, 0) 0, rgba(20, 20, 20, .15) 15%, rgba(20, 20, 20, .35) 29%, rgba(20, 20, 20, .58) 44%, #141414 68%, #141414 100%) repeat-x 0 top;
+  /* background-color: transparent; */
+  width: 100%;
+  height: 22.8vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 520px;
+}
+
+.estreno-image-contenedor{
+  width: 100%;
+  height: 100%;
+}
+
 
 .detalle-estreno{
   color: white;
   font-size: 20px;
   padding-top: 350px;
+}
+
+
+.logo-titulo-image{
+  width: 85%;
+}
+
+.descripcion{
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  font-size: 1.4vw;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: white;
+  padding-top: 15px;
+}
+
+.info{
+  position: absolute;
+  top: 20%;
+  width: 40%;
+  margin-left: 60px;
+}
+
+
+.acciones{
+  vertical-align: middle;
+  top: auto;
+  white-space: nowrap;
+  padding-top: 15px;
+  font-size: 7px;
+}
+
+.boton-flat{
+  color: white;
+  background-color: rgba(51,51,51,.4);
+  border-width: 0;
+  font-size: 1.1vw;
+  border-radius: .2vw;
+  margin-right: .75em;
+  display: inline-block;
+  font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  padding: .75em 2.3em;
+}
+
+.boton-flat:hover{
+  background-color: whitesmoke;
+  color: black;
 }
