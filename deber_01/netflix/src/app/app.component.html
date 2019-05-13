@@ -1,20 +1,39 @@
 <app-nav-bar></app-nav-bar>
 
-<div class="container">
-    <app-estreno-item
-      [nombre]="peliculaEstreno.nombre"
-      [descripcion]="peliculaEstreno.descripcion"
-      [categorias]="peliculaEstreno.categorias"
-      [clasificacion]="peliculaEstreno.clasificacion"
-      [duracion]="peliculaEstreno.duracion"
-      [portadaUrl]="peliculaEstreno.portadaUrl"
-    ></app-estreno-item>
-</div>
-<div class="container" style="padding-top: 50px;">
 
+
+
+  <app-estreno-item
+    [nombre]="peliculaEstreno.nombre"
+    [descripcion]="peliculaEstreno.descripcion"
+    [categorias]="peliculaEstreno.categorias"
+    [clasificacion]="peliculaEstreno.clasificacion"
+    [duracion]="peliculaEstreno.duracion"
+    [portadaUrl]="peliculaEstreno.portadaUrl"
+    [logo_titulo]="peliculaEstreno.logo_titulo"
+  ></app-estreno-item>
+
+<div class="container contenedor-principal">
+  <div *ngIf="_listaService.lista.length > 0">
+    <h2 class="titulo-lista">Mi lista</h2>
+    <div class="row" style="padding-bottom: 40px">
+      <div class="col-sm-3" *ngFor="let pelicula of _listaService.lista">
+        <app-movie-item
+          [nombre]="pelicula.nombre"
+          [descripcion]="pelicula.descripcion"
+          [categorias]="pelicula.categorias"
+          [clasificacion]="pelicula.clasificacion"
+          [duracion]="pelicula.duracion"
+          [portadaUrl]="pelicula.portadaUrl"
+          [estaEnLista]="true"
+        >
+        </app-movie-item>
+      </div>
+    </div>
+  </div>
   <h2 class="titulo-lista">Tendencias</h2>
-  <div class="row">
-    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+  <div class="row" >
+    <div class="col-sm-3" *ngFor="let pelicula of arregloPeliculas">
       <app-movie-item
         [nombre]="pelicula.nombre"
         [descripcion]="pelicula.descripcion"
@@ -28,7 +47,7 @@
 
   <h2 class="titulo-lista">Recomendados para ti</h2>
   <div class="row">
-    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+    <div class="col-sm-3" *ngFor="let pelicula of arregloPeliculas">
       <app-movie-item
         [nombre]="pelicula.nombre"
         [descripcion]="pelicula.descripcion"
@@ -42,7 +61,7 @@
 
   <h2 class="titulo-lista">Documentales</h2>
   <div class="row">
-    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+    <div class="col-sm-3" *ngFor="let pelicula of arregloPeliculas">
       <app-movie-item
         [nombre]="pelicula.nombre"
         [descripcion]="pelicula.descripcion"
@@ -55,7 +74,7 @@
   </div>
   <h2 class="titulo-lista">Clasicos</h2>
   <div class="row">
-    <div class="col-2" *ngFor="let pelicula of arregloPeliculas">
+    <div class="col-sm-3" *ngFor="let pelicula of arregloPeliculas">
       <app-movie-item
         [nombre]="pelicula.nombre"
         [descripcion]="pelicula.descripcion"
@@ -63,21 +82,6 @@
         [clasificacion]="pelicula.clasificacion"
         [duracion]="pelicula.duracion"
         [portadaUrl]="pelicula.portadaUrl">
-      </app-movie-item>
-    </div>
-  </div>
-  <h2 class="titulo-lista">Mi lista</h2>
-  <div class="row" style="padding-bottom: 40px">
-    <div class="col-2" *ngFor="let pelicula of _listaService.lista">
-      <app-movie-item
-        [nombre]="pelicula.nombre"
-        [descripcion]="pelicula.descripcion"
-        [categorias]="pelicula.categorias"
-        [clasificacion]="pelicula.clasificacion"
-        [duracion]="pelicula.duracion"
-        [portadaUrl]="pelicula.portadaUrl"
-        [estaEnLista]="true"
-      >
       </app-movie-item>
     </div>
   </div>

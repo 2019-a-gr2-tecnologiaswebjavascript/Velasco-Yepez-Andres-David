@@ -3,3 +3,10 @@
   font-family: Verdana, serif;
   font-size: 20px;
 }
+
+
+.contenedor-principal{
+  position: absolute;
+  top: 650px;
+  left: 60px;
+}
