@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Instagram
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-row >
+        <ion-col *ngFor="let estado of estados" align-self-start size="3">
+                    <ion-avatar>
+                        <ion-img [src]="estado.foto_perfil" size="width:64"></ion-img>
+                    </ion-avatar>
+                <ion-label>{{estado.nombre}}</ion-label>
+        </ion-col>
+    </ion-row>
+<ion-list  >
+    <ion-item lines="none" *ngFor="let publicacion of publicaciones">
+    <app-publicacion-item
+            [desc_pub]="publicacion.desc_pub"
+            [foto_perfil]="publicacion.foto_perfil"
+            [foto_publicacion]="publicacion.foto_publicacion"
+            [nombre]="publicacion.nombre"
+            [fecha]="publicacion.fecha"
+    >
+    </app-publicacion-item>
+    </ion-item>
+</ion-list>
+</ion-content>

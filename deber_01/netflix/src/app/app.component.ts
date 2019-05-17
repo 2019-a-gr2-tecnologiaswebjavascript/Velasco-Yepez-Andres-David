@@ -56,6 +56,6 @@ export class AppComponent {
       'clasificacion':18,
       'portadaUrl':'https://upload.wikimedia.org/wikipedia/en/thumb/b/b8/Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png/220px-Spider-Man_Into_the_Spider-Verse_%282018_poster%29.png'
     },
-    
+
   ];
 }

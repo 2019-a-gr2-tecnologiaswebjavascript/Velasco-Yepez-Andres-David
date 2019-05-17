@@ -1,0 +1,24 @@
+
+
+<ul>
+  <li>Nombre:{{nombre}}</li>
+  <li>Apelllido:{{apellido}}</li>
+  <li>Consulta:{{q}}</li>
+</ul>
+<br>
+<form
+  #formularioUsuario="ngForm"
+  novalidate
+  (submit)="guardarUsuario(formularioUsuario)"
+>
+  <label for="nombreUsuario">Nombre</label>
+  <input type="text" id="nombreUsuario" name="nombre" [(ngModel)]="nombre">
+  <label for="apellidoUsuario">Apellido</label>
+  <input type="text" id="apellidoUsuario" name="apellido" [(ngModel)]="apellido">
+  <label for="consulta">Consulta</label>
+  <input type="text" id="consulta" name="q" [(ngModel)]="q">
+  <button>Ir a google</button>
+  <button type="button">Tipo boton</button>
+  <button type="reset">Tipo reset</button>
+  <button type="submit">Tipo submit</button>
+</form>
