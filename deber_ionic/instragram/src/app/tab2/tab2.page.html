@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Usuarios
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+   <ion-list >
+       <ion-item lines="none" *ngFor="let usuario of usuarios">
+            <app-usuario-item
+               [nombre]="usuario.nombre"
+               [foto_perfil]="usuario.foto_perfil"
+               [nombre_real]="usuario.nombre_real"
+            >
+            </app-usuario-item>
+       </ion-item>
+   </ion-list>
+</ion-content>

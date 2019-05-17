@@ -5,6 +5,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
       <excludeFolder url="file://$MODULE_DIR$/02 IONIC/tinderpoli/platforms" />
       <excludeFolder url="file://$MODULE_DIR$/02 IONIC/tinderpoli/www" />
+      <excludeFolder url="file://$MODULE_DIR$/deber_ionic/instragram/www" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>

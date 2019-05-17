@@ -1,0 +1,30 @@
+<br>
+<div class="welcome-card">
+  <div>
+      <ion-item class=“item-borderless”>
+             <ion-avatar slot="start">
+            <ion-img [src]="foto_perfil" size="width:64"></ion-img>
+            </ion-avatar>
+            <ion-label>{{nombre}}</ion-label>
+      </ion-item>
+  </div>
+  <div>
+      <ion-img [src]="foto_publicacion"></ion-img>
+        <span class="descripcion">{{desc_pub}}</span>
+      <br>
+        <span class="fecha">{{fecha}}</span>
+  </div>
+</div>
+<div class="comentario">
+    <ion-row>
+        <ion-col align-items-start size="2">
+                <ion-avatar>
+                    <ion-img [src]="foto_perfil" size="width:64"></ion-img>
+                </ion-avatar>
+        </ion-col>
+        <ion-col>
+            <ion-input placeholder="Agrega  un comentario"></ion-input>
+        </ion-col>
+    </ion-row>
+</div>
+<br>
