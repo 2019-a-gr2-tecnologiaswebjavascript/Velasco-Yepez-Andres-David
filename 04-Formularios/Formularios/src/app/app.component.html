@@ -1,24 +1,69 @@
 
-
+<!--
 <ul>
   <li>Nombre:{{nombre}}</li>
   <li>Apelllido:{{apellido}}</li>
-  <li>Consulta:{{q}}</li>
+  <li>Consulta:{{cedula}}</li>
 </ul>
 <br>
+
+<pre>Dirty: {{formularioUsuario.dirty}}</pre>
+<pre>Pristine: {{formularioUsuario.pristine}}</pre>
+<pre>Touched: {{formularioUsuario.touched}}</pre>
+<pre>Untouched: {{formularioUsuario.untouched}}</pre>
+-->
+<div *ngIf="vtCedula.errors && vtCedula.dirty">
+    <h1>Errores</h1>
+    <p>Existen un error</p>
+    <p *ngIf="vtCedula.errors.minlength">Escriba minimo 10 caracteres</p>
+    <p *ngIf="vtCedula.errors.pattern">Solo se aceptan numeros</p>
+    <p *ngIf="vtCedula.errors.required">Este campo es obligatorio</p>
+</div>
+
 <form
   #formularioUsuario="ngForm"
   novalidate
   (submit)="guardarUsuario(formularioUsuario)"
 >
   <label for="nombreUsuario">Nombre</label>
-  <input type="text" id="nombreUsuario" name="nombre" [(ngModel)]="nombre">
+  <input
+        type="email"
+        pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)"
+        id="nombreUsuario"
+        name="nombre"
+        required
+
+  >
+  <!--
+
+  <p *ngIf="vtNombre.valid">Nombre Valido</p>
+  <p *ngIf="vtNombre.invalid">Nombre Invalido</p>
+  <pre>Errores: {{vtNombre.errors | json}}</pre>
+  <pre>Dirty: {{vtNombre.dirty}}</pre>
+  <pre>Pristine: {{vtNombre.pristine}}</pre>
+  <pre>Touched: {{vtNombre.touched}}</pre>
+  <pre>Untouched: {{vtNombre.untouched}}</pre>
+-->
   <label for="apellidoUsuario">Apellido</label>
-  <input type="text" id="apellidoUsuario" name="apellido" [(ngModel)]="apellido">
-  <label for="consulta">Consulta</label>
-  <input type="text" id="consulta" name="q" [(ngModel)]="q">
+  <input type="text" id="apellidoUsuario" name="apellido" [(ngModel)]="apellido" required>
+  <label for="consulta">Cedula</label>
+  <input type="text" id="consulta" name="cedula" [(ngModel)]="cedula" required minlength="10" maxlength="10"
+    pattern="([0-9]{10})"
+    #vtCedula = "ngModel"
+  >
+  <!--
+  <pre>Errores: {{vtCedula.errors | json}}</pre>
+  -->
+  <br>
   <button>Ir a google</button>
+  <br>
   <button type="button">Tipo boton</button>
+  <br>
   <button type="reset">Tipo reset</button>
-  <button type="submit">Tipo submit</button>
+  <br>
+  <button type="submit" [disabled]="formularioUsuario.invalid">Tipo submit</button>
 </form>
+
+<!--
+
+-->
