@@ -52,8 +52,8 @@ export class HttpSailsPrincipal<ClaseEntidad>{
   }
 
   // Actualizar
-  actualizar(modificadoRegistro:ClaseEntidad):Observable<ClaseEntidad>{
-    const  url = `${this.url}${this.modelo}`;
+  actualizar(modificadoRegistro:ClaseEntidad,id:number):Observable<ClaseEntidad>{
+    const  url = `${this.url}${this.modelo}/${id}`;
     return this.httpclient.put(url,modificadoRegistro).pipe(
       map(
         (datos)=>{

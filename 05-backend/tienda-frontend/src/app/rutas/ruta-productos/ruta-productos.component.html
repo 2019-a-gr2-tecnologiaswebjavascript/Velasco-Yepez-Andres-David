@@ -14,6 +14,8 @@
       <td> {{producto.nombre}} </td>
       <td> {{producto.codigo}} </td>
       <td><button mat-raised-button color="accent">Comprar</button></td>
+      <td><button mat-raised-button color="primary" [routerLink]="['/producto',producto.id,'actualizar']">Actualizar</button></td>
+      <td><button mat-raised-button color="warn">Borrar</button></td>
     </tr>
   </tbody>
 </table>

@@ -1,3 +1,28 @@
-<p>
-  ruta-producto-actualizar works!
-</p>
+<div class="d-flex justify-content-center" *ngIf="encontro">
+  <div class="p-2 formulario" >
+    <h2>Actualizar Producto</h2>
+    <form
+      #formularioActualizarProducto="ngForm"
+      novalidate
+      (submit)="actualizarProducto()"
+    >
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Nombre" [value]="producto.nombre" name="nombre" id="nombre"
+               [(ngModel)]="producto.nombre" required>
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Codigo" type="number" [value]="producto.codigo" name="codigo" id="codigo"
+               [(ngModel)]="producto.codigo" required>
+      </mat-form-field>
+      <div class="d-flex justify-content-center">
+        <div class="p-2">
+          <button mat-raised-button color="warn" type="submit" [disabled]="formularioActualizarProducto.invalid">
+            Actualizar
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
