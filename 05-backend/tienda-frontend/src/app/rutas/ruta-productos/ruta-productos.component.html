@@ -1,3 +1,19 @@
-<p>
-  ruta-productos works!
-</p>
+
+<table class="table table-hover table-dark">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Nombre</th>
+      <th>Codigo</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let producto of  listaProductos">
+      <td> {{producto.id}} </td>
+      <td> {{producto.nombre}} </td>
+      <td> {{producto.codigo}} </td>
+      <td><button mat-raised-button color="accent">Comprar</button></td>
+    </tr>
+  </tbody>
+</table>

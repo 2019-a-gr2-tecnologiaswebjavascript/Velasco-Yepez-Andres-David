@@ -12,6 +12,10 @@ import { RutaProductosComponent } from './rutas/ruta-productos/ruta-productos.co
 import { RutaProductoActualizarComponent } from './rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component';
 import { RutaProductoRegistroComponent } from './rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component';
 import { RutaComprasComponent } from './rutas/ruta-compras/ruta-compras.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {MatButtonModule} from '@angular/material';
+import {MatInputModule} from '@angular/material/input';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -20,12 +24,16 @@ import { RutaComprasComponent } from './rutas/ruta-compras/ruta-compras.componen
     RutaProductosComponent,
     RutaProductoActualizarComponent,
     RutaProductoRegistroComponent,
-    RutaComprasComponent
+    RutaComprasComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule,
+    MatButtonModule,
+    MatInputModule,
+    FormsModule
   ],
   providers: [
     UsuarioHttpService,

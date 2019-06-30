@@ -15,6 +15,7 @@ export class HttpSailsPrincipal<ClaseEntidad>{
     this.modelo = modelo;
   }
 
+  // Crear
   crear(nuevoRegistro:ClaseEntidad):Observable<ClaseEntidad>{
     const  url = `${this.url}${this.modelo}`;
     return this.httpclient.post(url, nuevoRegistro).pipe(
@@ -26,7 +27,8 @@ export class HttpSailsPrincipal<ClaseEntidad>{
     );
   }
 
-  listar(nuevoRegistro:ClaseEntidad):Observable<ClaseEntidad[]>{
+  //Listar
+  listar():Observable<ClaseEntidad[]>{
     const  url = `${this.url}${this.modelo}`;
     return this.httpclient.get(url).pipe(
       map(
@@ -36,7 +38,7 @@ export class HttpSailsPrincipal<ClaseEntidad>{
       )
     );
   }
-  // Crear
+
   // Borrar
   borrar(id:number):Observable<ClaseEntidad>{
     const  url = `${this.url}${this.modelo}/${id}`;
@@ -48,7 +50,8 @@ export class HttpSailsPrincipal<ClaseEntidad>{
       )
     );
   }
-    // Actualizar
+
+  // Actualizar
   actualizar(modificadoRegistro:ClaseEntidad):Observable<ClaseEntidad>{
     const  url = `${this.url}${this.modelo}`;
     return this.httpclient.put(url,modificadoRegistro).pipe(
@@ -59,6 +62,7 @@ export class HttpSailsPrincipal<ClaseEntidad>{
       )
     );
   }
+
   // Buscar por ID
   buscar(id:number):Observable<ClaseEntidad>{
     const  url = `${this.url}${this.modelo}/${id}`;

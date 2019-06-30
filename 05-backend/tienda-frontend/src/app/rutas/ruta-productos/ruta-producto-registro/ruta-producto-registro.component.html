@@ -1,3 +1,25 @@
-<p>
-  ruta-producto-registro works!
-</p>
+
+<div class="d-flex justify-content-center">
+  <div class="p-2 formulario">
+    <h2>Registrar Producto</h2>
+    <form
+      #formularioRegistroProducto="ngForm"
+      novalidate
+      (submit)="registrarProducto()"
+    >
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Nombre" value="" name="nombre" id="nombre" [(ngModel)]="nombre" required>
+      </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <input matInput placeholder="Codigo" type="number" name="codigo" id="codigo" [(ngModel)]="codigo" required>
+      </mat-form-field>
+    <div class="d-flex justify-content-center">
+        <div class="p-2">
+          <button mat-raised-button color="warn" type="submit" [disabled]="formularioRegistroProducto.invalid">Registrar</button>
+        </div>
+    </div>
+    </form>
+  </div>
+</div>
+
