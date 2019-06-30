@@ -13,9 +13,11 @@ import { RutaProductoActualizarComponent } from './rutas/ruta-productos/ruta-pro
 import { RutaProductoRegistroComponent } from './rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component';
 import { RutaComprasComponent } from './rutas/ruta-compras/ruta-compras.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {MatButtonModule} from '@angular/material';
+import {MAT_DIALOG_DEFAULT_OPTIONS, MatButtonModule} from '@angular/material';
 import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from "@angular/forms";
+import {MatDialogModule} from '@angular/material/dialog';
+import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-dialogo.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,10 @@ import {FormsModule} from "@angular/forms";
     RutaProductoActualizarComponent,
     RutaProductoRegistroComponent,
     RutaComprasComponent,
+    MensajeDialogoComponent,
+  ],
+  entryComponents:[
+    MensajeDialogoComponent
   ],
   imports: [
     BrowserModule,
@@ -33,12 +39,14 @@ import {FormsModule} from "@angular/forms";
     BrowserAnimationsModule,
     MatButtonModule,
     MatInputModule,
-    FormsModule
+    FormsModule,
+    MatDialogModule
   ],
   providers: [
     UsuarioHttpService,
     ProductoUsuarioHttpService,
-    ProductoHttpService
+    ProductoHttpService,
+    {provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}
   ],
   bootstrap: [AppComponent]
 })
