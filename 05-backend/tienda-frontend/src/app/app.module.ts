@@ -18,6 +18,7 @@ import {MatInputModule} from '@angular/material/input';
 import {FormsModule} from "@angular/forms";
 import {MatDialogModule} from '@angular/material/dialog';
 import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-dialogo.component';
+import {OverlayModule} from '@angular/cdk/overlay';
 
 @NgModule({
   declarations: [
@@ -40,13 +41,14 @@ import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-d
     MatButtonModule,
     MatInputModule,
     FormsModule,
-    MatDialogModule
+    MatDialogModule,
+    OverlayModule
   ],
   providers: [
     UsuarioHttpService,
     ProductoUsuarioHttpService,
     ProductoHttpService,
-    {provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: false}}
+    {provide: MAT_DIALOG_DEFAULT_OPTIONS, useValue: {hasBackdrop: true}}
   ],
   bootstrap: [AppComponent]
 })
