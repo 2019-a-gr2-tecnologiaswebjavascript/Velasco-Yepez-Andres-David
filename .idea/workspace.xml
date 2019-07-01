@@ -3,13 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddf17c2-c662-45a9-a07a-7424b3ef03f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-backend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,24 +39,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="27" />
+          <entry key="css" value="29" />
           <entry key="ejs" value="1" />
-          <entry key="html" value="64" />
-          <entry key="js" value="11" />
+          <entry key="html" value="67" />
+          <entry key="js" value="14" />
           <entry key="json" value="7" />
           <entry key="scss" value="3" />
-          <entry key="ts" value="119" />
+          <entry key="ts" value="125" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="27" />
+          <entry key="CSS" value="29" />
           <entry key="EJS" value="1" />
-          <entry key="HTML" value="64" />
+          <entry key="HTML" value="67" />
           <entry key="JSON" value="6" />
-          <entry key="JavaScript" value="11" />
+          <entry key="JavaScript" value="14" />
           <entry key="SCSS" value="3" />
-          <entry key="TypeScript" value="119" />
+          <entry key="TypeScript" value="125" />
           <entry key="tsconfig" value="1" />
         </counts>
       </usages-collector>
@@ -67,24 +68,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="2025" />
+          <entry key="css" value="2074" />
           <entry key="ejs" value="16" />
-          <entry key="html" value="8307" />
-          <entry key="js" value="214" />
+          <entry key="html" value="8514" />
+          <entry key="js" value="264" />
           <entry key="json" value="70" />
           <entry key="scss" value="177" />
-          <entry key="ts" value="14999" />
+          <entry key="ts" value="17037" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="2025" />
+          <entry key="CSS" value="2074" />
           <entry key="EJS" value="16" />
-          <entry key="HTML" value="8306" />
+          <entry key="HTML" value="8513" />
           <entry key="JSON" value="70" />
-          <entry key="JavaScript" value="215" />
+          <entry key="JavaScript" value="265" />
           <entry key="SCSS" value="177" />
-          <entry key="TypeScript" value="14999" />
+          <entry key="TypeScript" value="17037" />
         </counts>
       </usages-collector>
     </session>
@@ -92,112 +93,97 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/security.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="280">
+              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/ProductoController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
               <folding>
-                <element signature="n#div#0;n#!!top" />
-                <element signature="n#div#2;n#!!top" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#50#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            <state relative-caret-position="207">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="22" column="3" lean-forward="true" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+            <state relative-caret-position="410">
+              <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#48#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="9" />
+            <state relative-caret-position="410">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding>
-                <element signature="e#0#50#0" expanded="true" />
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.spec.ts">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="249">
+              <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
               <folding>
-                <element signature="e#0#73#0" expanded="true" />
+                <element signature="e#309#1258#0" />
+                <element signature="e#468#871#0" />
+                <element signature="e#1286#3945#0" />
+                <element signature="e#1490#2054#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/productoUsuario.ts">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="9" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#34#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="327">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -234,38 +220,38 @@
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/producto.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/productoUsuario.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/usuario.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/productoUsuario-http.service.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/datastores.js" />
         <option value="$PROJECT_DIR$/05-backend/tienda-backend/views/pages/homepage.ejs" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/angular.json" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component.css" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/mensaje-dialogo/mensaje-dialogo.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/mensaje-dialogo/mensaje-dialogo.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/mensaje-dialogo/mensaje-dialogo.component.css" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/styles.css" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/http-sails-principal.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component.html" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/detalle.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/carrito/carrito-compra.service.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app-routing.module.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/carrito/carrito-compra.service.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -308,9 +294,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="695" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="width" value="1093" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -359,26 +345,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="rutas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-carrito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-productos" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
@@ -475,18 +441,18 @@
       <workItem from="1561433318687" duration="13000" />
       <workItem from="1561756883873" duration="5870000" />
       <workItem from="1561862227650" duration="1660000" />
-      <workItem from="1562008861764" duration="1799000" />
+      <workItem from="1562008861764" duration="10891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184021000" />
+    <option name="totallyTimeSpent" value="193113000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2742895" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31658956" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -501,7 +467,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" weight="0.31982633" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.23299566" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.11143271" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -535,20 +501,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/environments/environment.prod.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -560,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/security.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -605,24 +550,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/views/pages/homepage.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="859">
           <caret line="62" column="69" selection-start-line="62" selection-start-column="69" selection-end-line="62" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -640,28 +571,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/angular.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#852#2077#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -731,24 +644,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -787,20 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="759">
@@ -817,16 +702,6 @@
           <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/carrito/carrito-compra.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="30" column="39" selection-start-line="30" selection-start-column="39" selection-end-line="30" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -851,16 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="32" column="9" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -880,20 +745,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="17" column="65" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -904,21 +755,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="18" column="109" selection-start-line="18" selection-start-column="102" selection-end-line="18" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="17" column="101" selection-start-line="17" selection-start-column="101" selection-end-line="17" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/carrito/carrito-compra.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+            <element signature="n#!!block;n#addListaCompras#0;n#CarritoCompraService#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="45" column="41" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/security.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/ProductoController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/models/Producto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/config/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-backend/api/controllers/UsuarioController.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="177" column="31" lean-forward="true" selection-start-line="177" selection-start-column="31" selection-end-line="177" selection-end-column="31" />
+          <folding>
+            <element signature="e#309#1258#0" />
+            <element signature="e#468#871#0" />
+            <element signature="e#1286#3945#0" />
+            <element signature="e#1490#2054#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/http/producto-http.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="e#0#58#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="364">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="40" column="32" selection-start-line="40" selection-start-column="32" selection-end-line="40" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

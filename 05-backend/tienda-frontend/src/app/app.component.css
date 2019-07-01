@@ -1,3 +1,11 @@
 .spacer{
   flex: 1 1 auto;
 }
+
+.boton{
+  border:2px solid orangered;
+  color: white;
+  background-color: darkgoldenrod;
+  text-align: center;
+  min-width: 30px;
+}

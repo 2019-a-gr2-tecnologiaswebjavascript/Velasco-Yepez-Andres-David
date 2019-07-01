@@ -43,6 +43,7 @@ export class RutaCarritoComponent implements OnInit {
           );
       }
     );
+    this._carritoService.vaciarCarrito();
     this._router.navigate(["/compras"]);
   }
 

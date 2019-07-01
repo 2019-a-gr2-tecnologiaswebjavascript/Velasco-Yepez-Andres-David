@@ -17,6 +17,18 @@ module.exports = {
         required: true,
         unique:true,
     },
+    tamanio:{
+        type:'string'
+    },
+    descriptorArchivo:{
+      type:'string'
+    },
+    nombreArchivo:{
+      type:'string'
+    },
+    tipo:{
+      type:'string'
+    },
     arregloProductoUsuario:{
       collection:'ProductoUsuario', // modelo a relacionarse (HIJO)
       via:'fkProducto', //Nombre atributo FK (HIJO)
