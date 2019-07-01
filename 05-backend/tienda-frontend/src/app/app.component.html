@@ -10,6 +10,15 @@
   </mat-toolbar-row>
 </mat-toolbar>
 </div>
+
+
 <div class="container" style="margin-top: 75px">
-    <router-outlet></router-outlet>
+  <a href="http://localhost:1337/descargarArchivo/1" target="_blank">Descargar</a>
+  <label for="imagen" class="boton">Subir Imagen</label>
+  <input
+    hidden="true"
+    type="file" name="imagen" id="imagen" (change)="seleccionarArchivo($event)">
+  <h2>Nombre arhivo: {{archivo?.name}}</h2>
+  <button (click)="enviarArchivo()" [disabled]="!archivo">Enviar</button>
+  <router-outlet></router-outlet>
 </div>
