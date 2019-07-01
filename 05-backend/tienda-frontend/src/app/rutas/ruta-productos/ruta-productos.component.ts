@@ -3,6 +3,7 @@ import {ProductoHttpService} from "../../servicios/http/producto-http.service";
 import {Producto} from "../../dto/producto";
 import {MatDialog, MatDialogRef, MAT_DIALOG_DATA} from '@angular/material/dialog';
 import {MensajeDialogoComponent} from "../../componentes/mensaje-dialogo/mensaje-dialogo.component";
+import {DialogoAgregarComponent} from "../../componentes/dialogo-agregar/dialogo-agregar.component";
 
 @Component({
   selector: 'app-ruta-productos',
@@ -65,6 +66,16 @@ export class RutaProductosComponent implements OnInit {
           this.estaBuscando = false;
         },
       )
+  }
+
+  addCarrito(producto:Producto){
+    const dialogRef = this.dialog.open(DialogoAgregarComponent, {
+      data:producto
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      this.refrescarLista();
+    });
   }
 
 

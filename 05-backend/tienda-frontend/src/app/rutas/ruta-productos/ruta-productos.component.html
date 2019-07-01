@@ -44,7 +44,7 @@
         <td> {{ producto.id }} </td>
         <td> {{ producto.nombre}} </td>
         <td> {{ producto.codigo }} </td>
-        <td><button mat-raised-button color="accent">Comprar</button></td>
+        <td><button mat-raised-button color="accent" (click)="addCarrito(producto)">Añadir</button></td>
         <td><button mat-raised-button color="primary" [routerLink]="['/producto',producto.id,'actualizar']">Actualizar</button></td>
         <td><button mat-raised-button color="warn" (click)="borrarProducto(producto)">Borrar</button></td>
       </tr>

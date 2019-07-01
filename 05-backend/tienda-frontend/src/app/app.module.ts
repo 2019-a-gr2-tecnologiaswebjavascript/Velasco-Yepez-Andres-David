@@ -20,6 +20,11 @@ import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-d
 import {OverlayModule} from '@angular/cdk/overlay';
 import {MatExpansionModule} from '@angular/material/expansion';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { DialogoAgregarComponent } from './componentes/dialogo-agregar/dialogo-agregar.component';
+import { RutaCarritoComponent } from './rutas/ruta-carrito/ruta-carrito.component';
+import {MatListModule} from '@angular/material/list';
+import {MatDividerModule} from '@angular/material/divider';
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -31,9 +36,12 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     RutaProductoRegistroComponent,
     RutaComprasComponent,
     MensajeDialogoComponent,
+    DialogoAgregarComponent,
+    RutaCarritoComponent,
   ],
   entryComponents:[
-    MensajeDialogoComponent
+    MensajeDialogoComponent,
+    DialogoAgregarComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +54,10 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     MatDialogModule,
     OverlayModule,
     MatExpansionModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatListModule,
+    MatDividerModule,
+    MatIconModule
   ],
   providers: [
     UsuarioHttpService,
