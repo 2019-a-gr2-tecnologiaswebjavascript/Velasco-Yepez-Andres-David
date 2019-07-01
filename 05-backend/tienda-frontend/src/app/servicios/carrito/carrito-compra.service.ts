@@ -9,6 +9,9 @@ export class CarritoCompraService {
 
   constructor() { }
 
+  vaciarCarrito(){
+    this.listaProductos = [];
+  }
   addListaCompras(detalle:Detalle){
       const id = detalle.producto.id;
       let indiceDetalle = -1;
