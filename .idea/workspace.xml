@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1ddf17c2-c662-45a9-a07a-7424b3ef03f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -40,7 +34,7 @@
         <counts>
           <entry key="css" value="27" />
           <entry key="ejs" value="1" />
-          <entry key="html" value="64" />
+          <entry key="html" value="65" />
           <entry key="js" value="11" />
           <entry key="json" value="7" />
           <entry key="scss" value="3" />
@@ -51,7 +45,7 @@
         <counts>
           <entry key="CSS" value="27" />
           <entry key="EJS" value="1" />
-          <entry key="HTML" value="64" />
+          <entry key="HTML" value="65" />
           <entry key="JSON" value="6" />
           <entry key="JavaScript" value="11" />
           <entry key="SCSS" value="3" />
@@ -69,7 +63,7 @@
         <counts>
           <entry key="css" value="2025" />
           <entry key="ejs" value="16" />
-          <entry key="html" value="8307" />
+          <entry key="html" value="8335" />
           <entry key="js" value="214" />
           <entry key="json" value="70" />
           <entry key="scss" value="177" />
@@ -80,7 +74,7 @@
         <counts>
           <entry key="CSS" value="2025" />
           <entry key="EJS" value="16" />
-          <entry key="HTML" value="8306" />
+          <entry key="HTML" value="8334" />
           <entry key="JSON" value="70" />
           <entry key="JavaScript" value="215" />
           <entry key="SCSS" value="177" />
@@ -95,11 +89,20 @@
         <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
               <folding>
-                <element signature="n#div#0;n#!!top" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#div#2;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -125,7 +128,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
@@ -190,18 +193,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#56#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -254,7 +245,6 @@
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.css" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/dto/detalle.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/servicios/carrito/carrito-compra.service.ts" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app-routing.module.ts" />
@@ -264,8 +254,9 @@
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-compras/ruta-compras.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-carrito/ruta-carrito.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.ts" />
-        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" />
         <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html" />
+        <option value="$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html" />
       </list>
     </option>
   </component>
@@ -358,7 +349,7 @@
               <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
@@ -367,37 +358,8 @@
               <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-carrito" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="rutas" type="462c0819:PsiDirectoryNode" />
-              <item name="ruta-productos" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Velasco-Yepez-Andres-David" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Velasco-Yepez-Andres-David" type="462c0819:PsiDirectoryNode" />
-              <item name="05-backend" type="462c0819:PsiDirectoryNode" />
-              <item name="tienda-frontend" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="servicios" type="462c0819:PsiDirectoryNode" />
-              <item name="http" type="462c0819:PsiDirectoryNode" />
+              <item name="componentes" type="462c0819:PsiDirectoryNode" />
+              <item name="dialogo-agregar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -475,12 +437,12 @@
       <workItem from="1561433318687" duration="13000" />
       <workItem from="1561756883873" duration="5870000" />
       <workItem from="1561862227650" duration="1660000" />
-      <workItem from="1562008861764" duration="1799000" />
+      <workItem from="1562008861764" duration="2993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184021000" />
+    <option name="totallyTimeSpent" value="185215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -787,13 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="75" selection-start-line="18" selection-start-column="75" selection-end-line="18" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-producto-registro/ruta-producto-registro.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="372">
@@ -904,21 +859,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/rutas/ruta-productos/ruta-productos.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <caret line="1" column="76" selection-start-line="1" selection-start-column="76" selection-end-line="1" selection-end-column="76" />
           <folding>
-            <element signature="n#div#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#div#2;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/05-backend/tienda-frontend/src/app/componentes/dialogo-agregar/dialogo-agregar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+        <state relative-caret-position="234">
+          <caret line="17" column="76" selection-start-line="17" selection-start-column="76" selection-end-line="17" selection-end-column="76" />
         </state>
       </provider>
     </entry>

@@ -10,12 +10,12 @@
   <p><strong>Cantidad:</strong> {{cantidad}}</p>
 
   <mat-form-field>
-    <input matInput placeholder="cantidad" type="number" name="cantidad" min="1"  [(ngModel)]="cantidad">
+    <input matInput placeholder="cantidad" value="1" type="number" name="cantidad" min="1"  [(ngModel)]="cantidad">
   </mat-form-field>
 </div>
 <div mat-dialog-actions class="d-flex justify-content-center">
   <div class="p-2">
-    <button mat-raised-button (click)="agregar()" color="warn">Añadir</button>
+    <button mat-raised-button (click)="agregar()" color="warn" [disabled]="!cantidad">Añadir</button>
     <button mat-raised-button (click)="cancelar()" color="primary">Cancelar</button>
   </div>
 </div>
