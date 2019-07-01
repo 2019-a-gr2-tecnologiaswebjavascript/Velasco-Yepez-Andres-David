@@ -21,7 +21,11 @@ export class AppComponent implements OnInit {
 
   }
 
+  ngOnInit(): void {
+  }
+
   // Lugar seguro donde correr
+  /*
   ngOnInit(): void {
       const usuarioCrear$ = this._usuarioHttpService.crear(
         {
@@ -43,16 +47,7 @@ export class AppComponent implements OnInit {
             console.log(error);
         }
       );
-      /*
-      const usuarioBorrar$ = this._usuarioHttpService.borrar(1);
-      usuarioBorrar$.subscribe(
-        (borrado)=>{
-              console.log(borrado);
-        },
-        (error)=>{
-          console.log(error);
-        }
-      );*/
+
     const productoCrear$ = this._productoHttpService
       .crear({
         nombre:"Brazzers Premium",
@@ -84,4 +79,5 @@ export class AppComponent implements OnInit {
         },
       );
   }
+  */
 }

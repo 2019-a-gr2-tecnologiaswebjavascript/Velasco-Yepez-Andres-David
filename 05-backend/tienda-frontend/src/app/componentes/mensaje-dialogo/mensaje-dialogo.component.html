@@ -1,0 +1,16 @@
+  <h1 mat-dialog-title>Borrar Producto</h1>
+  <div mat-dialog-content>
+    <p>¿Desea borrar el producto?</p>
+    <p>
+      <strong>Codigo: </strong> {{producto.codigo}}
+    </p>
+    <p>
+      <strong>Nombre: </strong> {{producto.nombre}}
+    </p>
+  </div>
+  <div mat-dialog-actions class="d-flex justify-content-center">
+    <div class="p-2">
+      <button mat-raised-button (click)="aceptar()" color="warn">Si</button>
+      <button mat-raised-button (click)="cancelar()" color="primary">No</button>
+    </div>
+  </div>
