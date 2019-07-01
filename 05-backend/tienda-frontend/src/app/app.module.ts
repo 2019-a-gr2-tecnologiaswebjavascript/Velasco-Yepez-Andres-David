@@ -19,6 +19,7 @@ import {FormsModule} from "@angular/forms";
 import {MatDialogModule} from '@angular/material/dialog';
 import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-dialogo.component';
 import {OverlayModule} from '@angular/cdk/overlay';
+import {MatExpansionModule} from '@angular/material/expansion';
 
 @NgModule({
   declarations: [
@@ -42,7 +43,8 @@ import {OverlayModule} from '@angular/cdk/overlay';
     MatInputModule,
     FormsModule,
     MatDialogModule,
-    OverlayModule
+    OverlayModule,
+    MatExpansionModule
   ],
   providers: [
     UsuarioHttpService,

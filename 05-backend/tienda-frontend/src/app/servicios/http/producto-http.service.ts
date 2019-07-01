@@ -9,4 +9,5 @@ export class ProductoHttpService extends HttpSailsPrincipal<Producto>{
     constructor(private readonly _httpClient:HttpClient){
         super(_httpClient, environment.url, '/Producto');
     }
+
 }

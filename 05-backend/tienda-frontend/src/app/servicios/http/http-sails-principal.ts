@@ -74,4 +74,16 @@ export class HttpSailsPrincipal<ClaseEntidad>{
       )
     );
   }
+
+  buscarParametro(filtro:any):Observable<ClaseEntidad[]>{
+    const  url = `${this.url}${this.modelo}?where=`+JSON.stringify(filtro);
+    console.log(url);
+    return this.httpclient.get(url).pipe(
+      map(
+        (datos)=>{
+          return datos as ClaseEntidad[];
+        }
+      )
+    );
+  }
 }

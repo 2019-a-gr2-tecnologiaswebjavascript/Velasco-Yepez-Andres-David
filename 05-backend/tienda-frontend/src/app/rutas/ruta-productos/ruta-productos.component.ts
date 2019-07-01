@@ -12,6 +12,8 @@ import {MensajeDialogoComponent} from "../../componentes/mensaje-dialogo/mensaje
 export class RutaProductosComponent implements OnInit {
 
   listaProductos:Producto[];
+  nombre:string;
+  estaBuscando:boolean = true;
 
   constructor(
     private readonly _productoHttpService: ProductoHttpService,
@@ -19,10 +21,12 @@ export class RutaProductosComponent implements OnInit {
     ) { }
 
   refrescarLista(){
+    this.estaBuscando = true;
     const $productoListar = this._productoHttpService.listar()
       .subscribe(
         (productos)=>{
           this.listaProductos = productos;
+          this.estaBuscando = false;
         },
         (error)=>{
           console.log(error);
@@ -45,6 +49,22 @@ export class RutaProductosComponent implements OnInit {
       this.refrescarLista();
       //
     });
+  }
+
+  buscarProducto(){
+    this.estaBuscando = true;
+    const filtro = {
+      nombre:{
+        contains:this.nombre
+      },
+    };
+    this._productoHttpService.buscarParametro(filtro)
+      .subscribe(
+        (productos)=>{
+          this.listaProductos = productos;
+          this.estaBuscando = false;
+        },
+      )
   }
 
 
