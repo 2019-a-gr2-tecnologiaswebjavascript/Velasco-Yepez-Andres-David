@@ -1,7 +1,13 @@
-<div class="container">
-    <ul>
-      <li><a routerLink="/productos">Productos</a></li>
-      <li><a routerLink="/producto/registro">Registrar Producto</a></li>
-    </ul>
-        <router-outlet></router-outlet>
+<div class="fixed-top">
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Tienda</span>
+    <span class="spacer"></span>
+    <button mat-button [routerLink]="['/productos']">Productos</button>
+    <button mat-button [routerLink]="['/producto/registro']">Registrar Producto</button>
+  </mat-toolbar-row>
+</mat-toolbar>
+</div>
+<div class="container" style="margin-top: 75px">
+    <router-outlet></router-outlet>
 </div>

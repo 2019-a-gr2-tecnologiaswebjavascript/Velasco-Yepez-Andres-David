@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {HttpClientModule} from "@angular/common/http";
@@ -20,6 +19,8 @@ import {MatDialogModule} from '@angular/material/dialog';
 import { MensajeDialogoComponent } from './componentes/mensaje-dialogo/mensaje-dialogo.component';
 import {OverlayModule} from '@angular/cdk/overlay';
 import {MatExpansionModule} from '@angular/material/expansion';
+import {MatToolbarModule} from '@angular/material/toolbar';
+
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import {MatExpansionModule} from '@angular/material/expansion';
     FormsModule,
     MatDialogModule,
     OverlayModule,
-    MatExpansionModule
+    MatExpansionModule,
+    MatToolbarModule
   ],
   providers: [
     UsuarioHttpService,
