@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {CarritoCompraService} from "../../servicios/carrito/carrito-compra.service";
 import {ProductoUsuarioHttpService} from "../../servicios/http/productoUsuario-http.service";
 import {Detalle} from "../../dto/detalle";
+import {Usuario} from "../../dto/usuario";
+import {Router} from "@angular/router";
 
 @Component({
   selector: 'app-ruta-carrito',
@@ -15,6 +17,7 @@ export class RutaCarritoComponent implements OnInit {
   constructor(
     private readonly _carritoService:CarritoCompraService,
     private readonly _productoUsuario:ProductoUsuarioHttpService,
+    private readonly _router:Router,
   ) {
     this.listaDetalles = this._carritoService.listaProductos;
     this.listaDetalles.forEach(
@@ -28,7 +31,19 @@ export class RutaCarritoComponent implements OnInit {
   }
 
   comprar(){
-
+    this.listaDetalles.forEach(
+      (detalle)=> {
+          const nuevoDetalle = {
+            cantidad: detalle.cantidad,
+            fkUsuario: 1,
+            fkProducto: detalle.producto.id
+          };
+          this._productoUsuario.crear(nuevoDetalle).subscribe(
+            (nuevoDetalle)=>{console.log("creado: ",nuevoDetalle)}
+          );
+      }
+    );
+    this._router.navigate(["/compras"]);
   }
 
 }

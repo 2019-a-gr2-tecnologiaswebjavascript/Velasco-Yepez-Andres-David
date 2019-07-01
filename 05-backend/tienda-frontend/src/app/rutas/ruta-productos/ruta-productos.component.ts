@@ -74,7 +74,7 @@ export class RutaProductosComponent implements OnInit {
     });
 
     dialogRef.afterClosed().subscribe(result => {
-      this.refrescarLista();
+      //this.refrescarLista();
     });
   }
 

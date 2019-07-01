@@ -13,6 +13,10 @@
       <mat-list-item>
         <h4>Total: {{total}}</h4>
       </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <button mat-raised-button (click)="comprar()" color="warn" [disabled]="listaDetalles">Comprar</button>
+      </mat-list-item>
     </mat-list>
   </div>
 </div>
