@@ -5,6 +5,7 @@ import {RutaProductoRegistroComponent} from "./rutas/ruta-productos/ruta-product
 import {RutaProductosComponent} from "./rutas/ruta-productos/ruta-productos.component";
 import {RutaProductoActualizarComponent} from "./rutas/ruta-productos/ruta-producto-actualizar/ruta-producto-actualizar.component";
 import {RutaComprasComponent} from "./rutas/ruta-compras/ruta-compras.component";
+import {RutaCarritoComponent} from "./rutas/ruta-carrito/ruta-carrito.component";
 
 /*
 *  productos
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path:'compras',
     component:RutaComprasComponent,
+  },
+  {
+    path:'carrito',
+    component:RutaCarritoComponent
   },
 
 ];

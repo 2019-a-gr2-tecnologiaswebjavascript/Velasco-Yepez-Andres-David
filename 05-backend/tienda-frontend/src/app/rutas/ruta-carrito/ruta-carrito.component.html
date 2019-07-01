@@ -1,0 +1,22 @@
+<div class="d-flex justify-content-center">
+  <div class="p-2 flex-fill">
+    <mat-list>
+      <h3>Carrito de compras</h3>
+      <mat-list-item *ngFor="let detalle of listaDetalles">
+
+            <mat-icon mat-list-icon>shopping_cart</mat-icon>
+            <p  mat-line>Nombre: {{detalle.producto.nombre}}</p>
+            <p  mat-line>Cantidad: {{detalle.cantidad}}</p>
+
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <h4>Total: {{total}}</h4>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item>
+        <button mat-raised-button (click)="comprar()" color="warn" [disabled]="listaDetalles">Comprar</button>
+      </mat-list-item>
+    </mat-list>
+  </div>
+</div>
