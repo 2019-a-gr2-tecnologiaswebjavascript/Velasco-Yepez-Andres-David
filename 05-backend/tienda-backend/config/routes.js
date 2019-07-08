@@ -22,6 +22,9 @@ module.exports.routes = {
   'GET /descargarArchivo/:idProducto':{
     action: 'usuario/download'
   },
+  'POST /prenderLed/:idLed':{
+    action: 'led/encenderLed'
+  },
 
 
 };

@@ -19,7 +19,9 @@ export class RutaProductosComponent implements OnInit {
   constructor(
     private readonly _productoHttpService: ProductoHttpService,
     public dialog: MatDialog,
-    ) { }
+    ) {
+    console.log("Estamos aqui");
+  }
 
   refrescarLista(){
     this.estaBuscando = true;
@@ -37,6 +39,7 @@ export class RutaProductosComponent implements OnInit {
 
   ngOnInit() {
    this.refrescarLista();
+    console.log("Se ha refrescado la lista de productos");
   }
 
   borrarProducto(producto:Producto): void {

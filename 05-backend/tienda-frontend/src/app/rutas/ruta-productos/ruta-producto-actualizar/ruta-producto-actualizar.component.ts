@@ -54,9 +54,10 @@ export class RutaProductoActualizarComponent implements OnInit {
         console.log(producto);
         if(this.imagen){
           this.enviarArchivo(producto.id);
+        }else {
+          alert("Producto actualizado");
+          this._router.navigate(['/productos'])
         }
-        alert("Producto actualizado");
-        this._router.navigate(['/productos'])
       }
     )
   }
@@ -64,7 +65,11 @@ export class RutaProductoActualizarComponent implements OnInit {
   protected  enviarArchivo(id:number){
     const producto$ = this._productoService.cargarArchivo(this.imagen._files[0],id);
     producto$.subscribe(
-      (datos)=>console.log(datos),
+      (datos)=>{
+        console.log(datos);
+        alert("Producto actualizado!!");
+        this._router.navigate(['/productos']);
+        },
     );
   }
 }
