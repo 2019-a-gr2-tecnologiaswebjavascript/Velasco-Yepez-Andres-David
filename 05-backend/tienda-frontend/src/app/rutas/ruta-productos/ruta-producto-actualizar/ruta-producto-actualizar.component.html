@@ -15,6 +15,11 @@
         <input matInput placeholder="Codigo" type="number" [value]="producto.codigo" name="codigo" id="codigo"
                [(ngModel)]="producto.codigo" required>
       </mat-form-field>
+
+      <mat-form-field class="full-width">
+        <ngx-mat-file-input [placeholder]="'Nueva Imagen'" accept="image/*" [(ngModel)]="imagen"  [ngModelOptions]="{standalone: true}"></ngx-mat-file-input>
+      </mat-form-field>
+
       <div class="d-flex justify-content-center">
         <div class="p-2">
           <button mat-raised-button color="warn" type="submit" [disabled]="formularioActualizarProducto.invalid">

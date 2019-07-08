@@ -34,6 +34,7 @@
       <thead>
       <tr>
         <th>Id</th>
+        <th>Imagen</th>
         <th>Nombre</th>
         <th>Codigo</th>
         <th>Acciones</th>
@@ -42,6 +43,11 @@
       <tbody *ngIf="!estaBuscando">
       <tr *ngFor="let producto of  listaProductos">
         <td> {{ producto.id }} </td>
+        <td class="celda">
+          <div class="cont-img">
+            <img src='http://localhost:1337/descargarArchivo/{{producto.id}}' class="img-fluid" style="max-width: 100%;height: auto;"/>
+          </div>
+        </td>
         <td> {{ producto.nombre}} </td>
         <td> {{ producto.codigo }} </td>
         <td><button mat-raised-button color="accent" (click)="addCarrito(producto)">Añadir</button></td>

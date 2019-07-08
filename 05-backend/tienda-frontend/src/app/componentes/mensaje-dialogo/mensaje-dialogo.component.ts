@@ -27,10 +27,10 @@ export class MensajeDialogoComponent {
     console.log("Se borro: ", this.producto.id);
     this._productoService.borrar(this.producto.id)
       .subscribe(
-        (producto)=>console.log("se borro: ", producto),
+        (producto)=>{console.log("se borro: ", producto); this.dialogRef.close(); },
         (error)=>console.log(error),
         ()=> {
-          this.dialogRef.close()
+
         },
   );
   }

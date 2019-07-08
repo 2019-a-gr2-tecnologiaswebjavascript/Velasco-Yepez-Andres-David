@@ -13,6 +13,7 @@ export class RutaProductoActualizarComponent implements OnInit {
 
   producto:Producto;
   encontro:boolean = false;
+  imagen:any;
 
   constructor(
     private readonly _activateRoute:ActivatedRoute,
@@ -51,9 +52,19 @@ export class RutaProductoActualizarComponent implements OnInit {
     ).subscribe(
       (producto)=>{
         console.log(producto);
+        if(this.imagen){
+          this.enviarArchivo(producto.id);
+        }
         alert("Producto actualizado");
         this._router.navigate(['/productos'])
       }
     )
+  }
+
+  protected  enviarArchivo(id:number){
+    const producto$ = this._productoService.cargarArchivo(this.imagen._files[0],id);
+    producto$.subscribe(
+      (datos)=>console.log(datos),
+    );
   }
 }

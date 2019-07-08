@@ -1,12 +1,20 @@
   <h1 mat-dialog-title>Borrar Producto</h1>
   <div mat-dialog-content>
     <p>¿Desea borrar el producto?</p>
-    <p>
-      <strong>Codigo: </strong> {{producto.codigo}}
-    </p>
-    <p>
-      <strong>Nombre: </strong> {{producto.nombre}}
-    </p>
+    <div class="d-flex flex-row">
+        <div class="p-2 cont-img">
+          <img src='http://localhost:1337/descargarArchivo/{{producto.id}}' class="img-fluid" style="max-width: 100%;height: auto;"/>
+        </div>
+        <div class="p-2">
+          <p>
+            <strong>Codigo: </strong> {{producto.codigo}}
+          </p>
+          <p>
+            <strong>Nombre: </strong> {{producto.nombre}}
+          </p>
+        </div>
+    </div>
+
   </div>
   <div mat-dialog-actions class="d-flex justify-content-center">
     <div class="p-2">
