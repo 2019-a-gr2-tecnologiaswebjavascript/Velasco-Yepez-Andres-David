@@ -13,6 +13,7 @@ export class RutaProductoRegistroComponent implements OnInit {
 
   nombre:string;
   codigo:string;
+  archivo:any;
 
   constructor(
     private readonly _productoService:ProductoHttpService,
@@ -23,6 +24,7 @@ export class RutaProductoRegistroComponent implements OnInit {
   }
 
   registrarProducto():void{
+    console.log(this.archivo._files[0]);
     let nuevoProducto={
       nombre:this.nombre,
       codigo:this.codigo,
@@ -33,10 +35,19 @@ export class RutaProductoRegistroComponent implements OnInit {
     ).subscribe(
       (producto)=>{
         console.log(producto);
+        // Subit imagen del producto
+        this.enviarArchivo(producto.id);
         alert("Producto Registrado");
         this._router.navigate(['/productos']);
       },
     )
+  }
+
+  protected  enviarArchivo(id:number){
+    const producto$ = this._productoService.cargarArchivo(this.archivo._files[0],id);
+    producto$.subscribe(
+      (datos)=>console.log(datos),
+    );
   }
 
 }

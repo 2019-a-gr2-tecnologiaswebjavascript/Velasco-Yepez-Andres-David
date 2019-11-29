@@ -25,6 +25,7 @@ import { RutaCarritoComponent } from './rutas/ruta-carrito/ruta-carrito.componen
 import {MatListModule} from '@angular/material/list';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
+import { MaterialFileInputModule } from 'ngx-material-file-input';
 
 
 @NgModule({
@@ -57,7 +58,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatToolbarModule,
     MatListModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MaterialFileInputModule
   ],
   providers: [
     UsuarioHttpService,
